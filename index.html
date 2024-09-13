@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuzhat Fatima's Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="resume-container">
+     
+        <section class="personal-info">
+            <img src="pics/nuzhat.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>NUZHAT FATIMA</h1>
+            <p>Web Developer | UX Designer</p>
+            <ul class="contact-info">
+                <div class="social-links">
+                    <button ><a href="https://mail.google.com/mail/?view=cm&fs=1&to=nf5481845@gmail.com" target="_blank">Email</a>
+                     <img src="pics/mail.jfif" alt="Email" style="width: 24px; height: 24px; vertical-align: middle;"></button> 
+                  <button>  <a href="https://www.linkedin.com/in/nuzhat-fatima-500354300" target="_blank">LinkedIn</a>
+                    <img src="pics/in.png" alt="LinkedIn" style="width: 24px; height: 24px; vertical-align: middle;"></button>
+                <button>   <a href="https://github.com/NuzhatFatima2024" target="_blank">GitHub</a>
+                    <img src="pics/git.jfif" alt="LinkedIn" style="width: 24px; height: 24px; vertical-align: middle;"></button>
+                </div>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <button class="toggle-section" onclick="toggleSection('education-details')">Education</button>
+            <div id="education-details">
+                <h3>Cloud Applied Generative AI Engineer </h3>
+                <p>Governor House -Continue</p>
+                <h3>Bachelor of Science</h3>
+                <p>University of Karachi</p>
+            </div>
+        </section>
+
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <button class="toggle-section" onclick="toggleSection('skills-details')">Skills</button>
+            <div id="skills-details">
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React, Angular, TypeScript</li>
+                    <li>UX/UI Design</li>
+                </ul>
+            </div>
+        </section>
+
+      
+        <section class="work-experience">
+            <h2>Work Experience</h2>
+            <button class="toggle-section" onclick="toggleSection('work-details')">Work Experience</button>
+            <div id="work-details">
+                <p>Web Developer</p>
+                <p>Frontend Developer</p>
+            </div>
+        </section>
+        <button id="share-link">Share Resume</button>
+    </div>
+        
+    <footer class="footer" id="footer">
+        <div class="footer-content">
+           
+            <p>Contact: </p>
+            <div class="social-links">
+                <button ><a href="https://mail.google.com/mail/?view=cm&fs=1&to=nf5481845@gmail.com" target="_blank">Email</a>
+                    <img src="pics/mail.jfif" alt="Email" style="width: 24px; height: 24px; vertical-align: middle;"></button> 
+                 <button>  <a href="https://www.linkedin.com/in/nuzhat-fatima-500354300" target="_blank">LinkedIn</a>
+                   <img src="pics/in.png" alt="LinkedIn" style="width: 24px; height: 24px; vertical-align: middle;"></button>
+               <button>   <a href="https://github.com/NuzhatFatima2024" target="_blank">GitHub</a>
+                   <img src="pics/git.jfif" alt="LinkedIn" style="width: 24px; height: 24px; vertical-align: middle;"></button>
+               </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
